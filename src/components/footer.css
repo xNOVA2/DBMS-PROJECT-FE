@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --maincolor: white;
+  --textcolor: black;
+  --subheadingscolor: grey;
+}
+
+footer {
+  max-width: 100%;
+  background-color: var(--maincolor);
+  padding: 30px;
+  display: flex;
+}
+
+.div-1 p em {
+  color: var(--textcolor);
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.div-1 button {
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: #28b463;
+  color: var(--maincolor);
+  margin: 20px 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.div-1 button:hover {
+  border: none;
+  transition: all 0.5s ease;
+  font-size: 1rem;
+}
+
+.footer-about {
+  float: left;
+  align-items: center;
+  margin: 10px 80px;
+}
+
+.footer-about a {
+  line-height: 2.5;
+  color: var(--subheadingscolor);
+  text-decoration: none;
+}
+
+.footer-account {
+  float: left;
+  align-items: center;
+  margin: 10px 80px;
+}
+
+.footer-account a {
+  line-height: 2.5;
+  color: var(--subheadingscolor);
+  text-decoration: none;
+}
+
+.footer-care {
+  float: left;
+  align-items: center;
+  margin: 10px 80px;
+}
+
+.footer-care a {
+  line-height: 2.5;
+  color: var(--subheadingscolor);
+  text-decoration: none;
+}
+
+.footer-about p,
+.footer-account p,
+.footer-care p {
+  color: var(--textcolor);
+}
+
+.footer-care a:hover,
+.footer-account a:hover,
+.footer-about a:hover {
+  color: var(--subheadingscolor);
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-column {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-column {
+    flex-basis: 100%;
+    margin: 10px 0;
+  }
+}
