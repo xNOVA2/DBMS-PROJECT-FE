@@ -1,25 +1,22 @@
-import "./signup.css";
+import "./login.css";
 
-function Signup() {
+function Login() {
   return (
     <div className="container">
       <div className="header">
-        <div className="text">Sign Up</div>
+        <div className="text">Login</div>
         <div className="underline"></div>
       </div>
       <div className="inputs">
         <div className="input">
-          <input type="text" placeholder="Name" />
-        </div>
-        <div className="input">
-          <input type="email" placeholder="Email" />
+          <input type="email" placeholder="Email address" />
         </div>
         <div className="input">
           <input type="password" placeholder="Password" />
         </div>
       </div>
-      <div className="forgot-password">
-        Lost Password? <span>Click here!</span>
+      <div className="short-text">
+        Forgotten password? <span>Click here!</span>
       </div>
       <div className="submit-container">
         <div className="submit">Sign Up</div>
@@ -29,4 +26,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default Login;
