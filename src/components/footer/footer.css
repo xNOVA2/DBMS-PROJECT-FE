@@ -12,7 +12,7 @@
 }
 
 footer {
-  max-width: 100%;
+  width: 100vw;
   background-color: var(--maincolor);
   padding: 30px;
   display: flex;

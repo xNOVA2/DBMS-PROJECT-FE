@@ -1,0 +1,31 @@
+.herosection {
+  width: 100vw;
+}
+
+.herosection img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.featured {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.carts {
+  align-items: center;
+  display: flex;
+  padding: 15px 250px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.cart img {
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+}
