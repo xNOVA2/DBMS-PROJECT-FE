@@ -7,6 +7,7 @@ import ForgotPassword from "./pages/forgotpassword/forgotpassword";
 import Herosection from "./pages/herosection/Herosection";
 import Newsletter from "./components/newsletter/Newsletter";
 import Footer from "./components/footer/Footer";
+import ProductPage from "./pages/productpage/Productpage";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         {/* <Signup /> */}
         {/* <Login /> */}
         {/* <ForgotPassword /> */}
-        <Herosection />
+        {/* <Herosection /> */}
+        <ProductPage />
         <Newsletter />
         <Footer />
       </div>
