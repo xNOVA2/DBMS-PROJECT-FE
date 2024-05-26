@@ -1,0 +1,166 @@
+.cart-container {
+  width: 800px;
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin: 25px 280px;
+}
+
+.item-list {
+  width: 80%;
+  background-color: #f2f3f4;
+  border-right: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.summary {
+  width: 60%;
+  padding: 20px;
+}
+
+.contact-information,
+.shipping-information,
+.billing-information,
+.payment-method {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  color: var(--textcolor);
+  border: none;
+  border-bottom: 2px solid var(--textcolor);
+  outline: none;
+  margin-bottom: 25px;
+  font-size: 16px;
+  background: transparent;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.total {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.place-order {
+  display: flex;
+  margin: 25px auto;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  color: var(--maincolor);
+  background-color: var(--buttoncolor);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cart-item-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid gainsboro;
+  align-items: center;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.item-image {
+  width: 75px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.item-price {
+  text-align: right;
+  font-weight: bold;
+  color: black;
+}
+
+.collapsible-section {
+  margin-bottom: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.collapsible-header {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.collapsible-header:hover {
+  background-color: #ddd;
+}
+
+.collapsible-content {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.arrow {
+  font-size: 0.8em;
+}
+
+@media (min-width: 768px) {
+  .cart-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .item-list {
+    width: 60%;
+    margin-bottom: 0;
+  }
+
+  .summary {
+    width: 35%;
+  }
+}
+
+@media (max-width: 767px) {
+  .cart-container {
+    flex-direction: column;
+  }
+
+  .item-list,
+  .summary {
+    width: 100%;
+  }
+}

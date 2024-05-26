@@ -8,6 +8,7 @@ import Herosection from "./pages/herosection/Herosection";
 import Newsletter from "./components/newsletter/Newsletter";
 import Footer from "./components/footer/Footer";
 import ProductPage from "./pages/productpage/Productpage";
+import Cart from "./pages/cart/Cart";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         {/* <Login /> */}
         {/* <ForgotPassword /> */}
         {/* <Herosection /> */}
-        <ProductPage />
+        {/* <ProductPage /> */}
+        <Cart />
         <Newsletter />
         <Footer />
       </div>
