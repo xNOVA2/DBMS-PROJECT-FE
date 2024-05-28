@@ -70,7 +70,7 @@ const Cart = () => {
       <div className="summary">
         <CollapsibleSection title="Contact Information">
           <div>
-            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Username" />
           </div>
           <div>
             <input type="email" placeholder="Email" />

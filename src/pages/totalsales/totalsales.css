@@ -1,0 +1,49 @@
+.main-content {
+  margin-left: 275px;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.totalsales-container {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.totalsales-container p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.metric-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin: 0 50px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.metric-card h2 {
+  margin-bottom: 10px;
+}
+
+.metric-card p {
+  font-size: 1.5em;
+  font-weight: bold;
+}

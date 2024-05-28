@@ -8,7 +8,8 @@
   width: 500px;
   display: flex;
   flex-direction: column;
-  margin: 50px 400px;
+  margin: 40px 0;
+  margin-left: 500px;
   background: #fff;
   padding-bottom: 30px;
   border-radius: 50px;
